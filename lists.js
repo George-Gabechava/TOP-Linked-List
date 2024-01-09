@@ -145,18 +145,3 @@ function linkedList() {
     toString
   };
 }
-
-let myList = linkedList();
-console.log("create list", myList);
-
-myList.append(createNode('Node A'));
-// console.log("appended A", myList);
-
-let bNode = createNode('Node B');
-myList.append(bNode);
-// console.log("appended B", myList);
-
-myList.prepend(createNode("New Node In Town"));
-console.log("prepended", myList);
-
-console.log("toString:", myList.toString());
